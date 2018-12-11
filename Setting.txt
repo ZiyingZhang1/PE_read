@@ -1,0 +1,8 @@
+##This file contains the input parameters used in the scripts.
+##The file has a tab-delimited layout and uses this fact to be easily parsed.
+##The lines containing the parameters to be used are build in a standard order.
+#
+##path to working directory 
+work_dir    /Users/ziying/OneDrive - UNSW/GenomeR-Oct18/ReadLength
+##Paired data directory
+PE_data_dir    test data/
