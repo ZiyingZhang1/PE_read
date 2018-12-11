@@ -66,13 +66,17 @@ def caculate_read_length(read1, read2):
     num_read = num_lines/2   
     
     for i in range(num_lines):
-        if file1_contents[i].startswith("@"):
-            base1.append(file1_contents[i+1].strip())
+        if i % 4 == 1 :
+        #if file1_contents[i].startswith("@"):
+            #base1.append(file1_contents[i+1].strip())
+            base1.append(file1_contents[i].strip())
     
     
     for i in range(num_lines):
-        if file2_contents[i].startswith("@"):
-            base2.append(file2_contents[i+1].strip())
+        if i % 4 == 1 :
+        #if file2_contents[i].startswith("@"):
+        #base2.append(file2_contents[i+1].strip())
+            base2.append(file2_contents[i].strip())
                
     total_base = base1 + base2
     total_base = ''.join(total_base)
