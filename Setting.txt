@@ -2,7 +2,7 @@
 ##The file has a tab-delimited layout and uses this fact to be easily parsed.
 ##The lines containing the parameters to be used are build in a standard order.
 #
-##path to working directory 
-work_dir    /Users/ziying/OneDrive - UNSW/GenomeR-Oct18/PE_read
-##Paired data directory
-PE_data_dir    test data/
+##user need to change info below -- path to working directory 
+work_dir    /Users/ziying/OneDrive - UNSW/GenomeR-Oct18/PE_read/
+##user need to change info below -- Paired data directory
+PE_data_dir    testdata/
