@@ -82,6 +82,7 @@ if __name__ == '__main__':
     
     filesname = get_PE_file(PE_data_dir)
     print(filesname)
+'''   
     for i in range(len(filesname)):
         if i%2 == 0:
             read1_file = "test data/" + filesname[i]
@@ -92,3 +93,4 @@ if __name__ == '__main__':
             average_read_length = caculate_read_length(read1_file, read2_file)
             print(average_read_length)
 
+'''
